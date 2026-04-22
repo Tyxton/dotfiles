@@ -1,9 +1,7 @@
----
 <div align="center">
 <h1>My Personal Dotfiles</h1>
 <a href="https://nottyxton.net">[My Documentation Website]</a>
 </div>
----
 
 ---
 
