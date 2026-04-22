@@ -1,8 +1,6 @@
 ---
-<center>
-**My Personal Dotfiles**
-[My Documentation Website](https://nottyxton.net)
-</center>
+<h1 align="center">My Personal Dotfiles</h1>
+<a href="https://nottyxton.net" align="center">[My Documentation Website]</a>
 ---
 
 # The Breakdown
