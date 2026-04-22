@@ -1,6 +1,8 @@
 ---
-<h1 align="center">My Personal Dotfiles</h1>
-<a href="https://nottyxton.net" align="center">[My Documentation Website]</a>
+<p align="center">
+<h1>My Personal Dotfiles</h1>
+<a href="https://nottyxton.net">[My Documentation Website]</a>
+</p>
 ---
 
 # The Breakdown
@@ -76,5 +78,3 @@ The core toolkit shared across both systems to ensure a consistent environment:
 ---
 
 _Eventually I intend to add the custom install scripts as well and automated symlinking._
-
----
