@@ -1,8 +1,8 @@
 ---
-<div align="center">
+<center>
 **My Personal Dotfiles**
 [My Documentation Website](https://nottyxton.net)
-</div>
+</center>
 ---
 
 # The Breakdown
