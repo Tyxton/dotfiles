@@ -1,8 +1,8 @@
 ---
-
-# My Personal Dotfiles
+<div align="center">
+**My Personal Dotfiles**
 [My Documentation Website](https://nottyxton.net)
-
+</div>
 ---
 
 # The Breakdown
@@ -26,11 +26,11 @@ Snake is my primary Development, Workstation, and Gaming rig. It is optimized fo
 
 ## Hardware Manifest
 
-| :--- | :--- |
-| Component | Specification |
-| CPU | Intel i9-12900K |
-| GPU | NVIDIA GeForce RTX 2060 |
-| RAM | 32GB |
+| Component | Specification           |
+| :-------- | :---------------------- |
+| CPU       | Intel i9-12900K         |
+| GPU       | NVIDIA GeForce RTX 2060 |
+| RAM       | 32GB                    |
 
 ---
 
@@ -44,11 +44,11 @@ Otacon is my portable Thinkpad X220, used for mobile development and focus-heavy
 
 ## Hardware Manifest
 
-| :--- | :--- |
-| Component | Specification |
-| CPU | Intel i5-2410M |
-| GPU | Intel 2nd Gen Integrated Graphics |
-| RAM | 8GB |
+| Component | Specification                     |
+| :-------- | :-------------------------------- |
+| CPU       | Intel i5-2410M                    |
+| GPU       | Intel 2nd Gen Integrated Graphics |
+| RAM       | 8GB                               |
 
 ---
 
