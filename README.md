@@ -23,6 +23,7 @@ Snake is my primary Development, Workstation, and Gaming rig. It is optimized fo
 - WM: Hyprland
 - Term: Foot
 - Bar: Waybar
+- Menu: Wofi
 
 ## Hardware Manifest
 
@@ -41,6 +42,9 @@ Otacon is my portable Thinkpad X220, used for mobile development and focus-heavy
 - WM: i3
 - Term: URxvt (rxvt-unicode)
 - Bar: Polybar
+- Compositor: Picom
+- Menu: Rofi
+- Notifications: Dunst
 
 ## Hardware Manifest
 
@@ -66,7 +70,8 @@ The core toolkit shared across both systems to ensure a consistent environment:
 
 ## System
 
-- `btrfs-snap-pre.sh`: Automation for BTRFS snapshots prior to updates or changes.
+- `00-btrfs-snapshot.hook`: Pacman hook to automatically snapshot prior to updates or changes.
+- `btrfs-snap-pre.sh`: Creates a systemd-boot entry automatically upon snapshot creation via `00-btrfs-snapshot.hook`.
 - `vpn-toggle.sh`: Quick CLI toggle for VPN connectivity
 - `wallpaper.sh`: Snake specific - Wofi wallpaper selector with awww, wal, and pywalfox integration.
 

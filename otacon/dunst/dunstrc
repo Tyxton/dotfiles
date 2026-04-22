@@ -1,0 +1,38 @@
+[global]
+    monitor = 0
+    follow = mouse
+    width = 300
+    height = 100
+    origin = top-right
+    offset = 10x50
+    notification_limit = 3
+    
+    font = Iosevka Nerd Font 10
+    line_height = 0
+    padding = 8
+    horizontal_padding = 8
+    frame_width = 2
+    
+    frame_color = "#${xrdb:color2}" 
+    separator_color = frame
+
+[urgency_low]
+    background = "#${xrdb:color0}"
+    foreground = "#${xrdb:color7}"
+    timeout = 5
+
+[urgency_normal]
+    background = "#${xrdb:color0}"
+    foreground = "#${xrdb:color7}"
+    timeout = 10
+
+[urgency_critical]
+    background = "#${xrdb:color1}"
+    foreground = "#${xrdb:color7}"
+    frame_color = "#${xrdb:color1}"
+    timeout = 0
+
+[shortcuts]
+close = XF86Forward
+history = XF86Back
+close_all = shift+XF86Forward

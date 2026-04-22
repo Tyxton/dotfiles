@@ -1,0 +1,39 @@
+configuration {
+    modi: "run,drun,window";
+    icon-theme: "";
+    show-icons: false;
+    terminal: "urxvt";
+    drun-display-format: "{name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-drun: " Apps ";
+    display-run: " Run ";
+    display-window: " Window ";
+    sidebar-mode: true;
+}
+
+@theme "/dev/null" 
+
+* {
+    bg: #1a1a1a; 
+    fg: #f0f0f0;
+    accent: @fg;
+    
+    background-color: @bg;
+    text-color: @fg;
+    font: "Iosevka Nerd Font 12";
+}
+
+window {
+    width: 45%;
+    border: 2px;
+    border-color: @accent;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+element selected {
+    background-color: @fg;
+    text-color: @bg;
+}

@@ -6,6 +6,9 @@ antidote load
 (cat ~/.cache/wal/sequences &)
 source ~/.cache/wal/colors-tty.sh
 
+# Autosuggest Customization
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=8"
+
 # Shortcut Aliases
 alias c='clear'
 alias lsf='ls -la --color=auto'
@@ -13,14 +16,16 @@ alias lss='lsix'
 alias ff='fastfetch'
 alias ..='cd ..'
 alias ...='cd ../..'
-alias ss='grim -g "$(slurp)" - | wl-copy'
 
-# QoL upgrades
+alias upd='yay -Syu'
+alias updss='SKIP_SNAP=1 yay -Syu'
+
+# QoL Upgrades
 autoload -Uz compinit && compinit
 zstyle ':completion:*' menu select
 bindkey -v
 
-# Case-insensitive completion and menu selection
+# Case-Insensitive Completetion
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' menu select
@@ -31,10 +36,10 @@ HISTSIZE=1000
 SAVEHIST=1000
 
 # History Improvements
-setopt APPEND_HISTORY          # Add to history, don't overwrite
-setopt SHARE_HISTORY           # Share history between all open terminals
-setopt HIST_IGNORE_DUPS        # Don't record the same command twice in a row
-setopt HIST_IGNORE_SPACE       # Don't record commands starting with a space
+setopt APPEND_HISTORY
+setopt SHARE_HISTORY
+setopt HIST_IGNORE_DUPS
+setopt HIST_IGNORE_SPACE
 
 # ZSH Native Git Status
 setopt PROMPT_SUBST

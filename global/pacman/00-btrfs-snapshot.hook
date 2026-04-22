@@ -1,0 +1,11 @@
+[Trigger]
+Operation = Upgrade
+Operation = Install
+Operation = Remove
+Type = Package
+Target = *
+
+[Action]
+Description = Creating BTRFS pre-transaction snapshot...
+When = PreTransaction
+Exec = /usr/bin/bash -c 'if [ -z "$SKIP_SNAP" ]; then /usr/local/bin/btrfs-snap-pre.sh; fi'
