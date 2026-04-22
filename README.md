@@ -68,6 +68,7 @@ The core toolkit shared across both systems to ensure a consistent environment:
 
 - `btrfs-snap-pre.sh`: Automation for BTRFS snapshots prior to updates or changes.
 - `vpn-toggle.sh`: Quick CLI toggle for VPN connectivity
+- `wallpaper.sh`: Snake specific - Wofi wallpaper selector with awww, wal, and pywalfox integration.
 
 ## Polybar
 
